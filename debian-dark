@@ -1,0 +1,19 @@
+Manually works for Debian, Fedora and Archlinux.
+
+    Start VM
+
+    Note: Remember that if you want to make the change persistent, the change needs to be made in the TemplateVM, not the AppVM.
+
+    Enable Global Dark Theme
+
+     cd ~/.config/
+     mkdir gtk-3.0
+     cd gtk-3.0/
+     touch settings.ini
+
+Add the following lines to settings.ini
+
+ [Settings]
+ gtk-application-prefer-dark-theme=1
+
+Follow steps 6 and 7 in: Using Gnome-Tweak-Tool
