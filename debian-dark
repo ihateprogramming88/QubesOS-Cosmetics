@@ -17,3 +17,7 @@ Add the following lines to settings.ini
  gtk-application-prefer-dark-theme=1
 
 Follow steps 6 and 7 in: Using Gnome-Tweak-Tool
+
+#Use for firefox browser to change the colour
+Exec=sh -c 'GTK_THEME=Adwaita:dark "
+
